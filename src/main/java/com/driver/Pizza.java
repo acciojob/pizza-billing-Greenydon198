@@ -51,7 +51,7 @@ public class Pizza {
         if(cheese>0)ans += "Extra Cheese Added: " + cheese + "\n";
         if(top>0)ans += "Extra Toppings Added: " + top + "\n";
         if(paper>0)ans += "Paperbag Added: " + paper + "\n";
-        ans += "Total Price: " + price ;
+        ans += "Total Price: " + price +"\n";
         bill = ans;
         return this.bill;
     }
